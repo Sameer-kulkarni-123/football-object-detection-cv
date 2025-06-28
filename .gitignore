@@ -1,0 +1,16 @@
+.env
+/misc
+/runs
+/models
+**/__pycache__/
+
+
+
+training/football-players-detection-1
+training/runs
+training/**/*.pt
+/stubs
+
+/venv
+
+/__pycache__
