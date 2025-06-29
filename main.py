@@ -3,7 +3,7 @@ from trackers import Tracker
 from team_assigner import TeamAssigner
 
 def main():
-  video_frames = read_video('input-video/test1.mp4')  
+  video_frames = read_video('input-video/test2.mp4')  
 
   tracker = Tracker('models/best1.pt')
   tracks = tracker.get_obj_tracks(video_frames, read_from_stub=True, stub_path="stubs/track_stub.pkl")
